@@ -1,0 +1,15 @@
+{
+    "name": "louislam/louislam-crud",
+    "description": "Another CRUD library.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Louis Lam",
+            "email": "louis@louislam.net"
+        }
+    ],
+    "require": {
+        "louislam/louislam-crud-library": "dev-master"
+    },
+    "minimum-stability": "dev"
+}
