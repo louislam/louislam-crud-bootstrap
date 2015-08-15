@@ -1,5 +1,5 @@
 {
-    "name": "louislam/louislam-crud",
+    "name": "louislam/louislam-crud-bootstrap",
     "description": "Another CRUD library.",
     "license": "MIT",
     "authors": [
@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "louislam/louislam-crud-library": "dev-master"
+        "louislam/louislam-crud": "dev-master"
     },
     "minimum-stability": "dev"
 }
