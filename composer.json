@@ -9,7 +9,13 @@
         }
     ],
     "require": {
+        "slim/slim": "2.6.2",
         "louislam/louislam-crud-library": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "LouisLam\\" : "src/LouisLam"
+        }
     },
     "minimum-stability": "dev"
 }
