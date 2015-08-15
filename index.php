@@ -4,7 +4,6 @@ require "vendor/autoload.php";
 use LouisLam\CRUD\SlimLouisCRUD;
 use RedBeanPHP\R;
 
-
 /*
  * 1. Setup a Database Connection (Support MySQL, SQLite etc.)
  * Please refer to: http://www.redbeanphp.com/connection
@@ -26,7 +25,7 @@ $crud->add("user", function () use ($crud) {
 });
 
 $crud->add("book", function () use ($crud) {
-    $crud->showFields("id", "name", "password", "email");
+    $crud->showFields("id", "title",  "date");
 });
 
 
@@ -34,4 +33,3 @@ $crud->add("book", function () use ($crud) {
  * 4. Run the application
  */
 $crud->run();
-
