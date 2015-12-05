@@ -1,6 +1,6 @@
 {
     "name": "louislam/louislam-crud-bootstrap",
-    "description": "Another CRUD library.",
+    "description": "index.php file for LouisCRUD",
     "license": "MIT",
     "authors": [
         {
@@ -11,5 +11,9 @@
     "require": {
         "louislam/louislam-crud": "dev-master"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "scripts": {
+        "post-update-cmd": "LouisLam\\CRUD\\CleanUp::cleanUp",
+        "post-install-cmd": "LouisLam\\CRUD\\CleanUp::cleanUp"
+    }
 }
