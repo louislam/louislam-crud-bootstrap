@@ -11,5 +11,11 @@
     "require": {
         "louislam/louislam-crud": "dev-master"
     },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "src/App"
+        },
+        "files": ["src/helpers.php"]
+    },
     "minimum-stability": "dev"
 }

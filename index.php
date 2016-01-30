@@ -21,11 +21,11 @@ $crud = new SlimLouisCRUD();
  * 3. Add handlers
  */
 $crud->add("user", function () use ($crud) {
-    $crud->showFields("id", "name", "password", "email");
+    $crud->showFields(["id", "name", "password", "email"]);
 });
 
 $crud->add("book", function () use ($crud) {
-    $crud->showFields("id", "title",  "date");
+    $crud->showFields(["id", "title", "date"]);
 });
 
 
