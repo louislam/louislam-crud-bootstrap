@@ -5,16 +5,16 @@
     "authors": [
         {
             "name": "Louis Lam",
-            "email": "louis@louislam.net"
+            "email": "info@louislam.net"
         }
     ],
     "require": {
-        "louislam/louislam-crud": "dev-master"
+        "louislam/louislam-crud": "^1.0.0"
     },
     "autoload": {
         "psr-4": {
             "App\\" : "src/App"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
